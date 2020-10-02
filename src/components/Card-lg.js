@@ -7,7 +7,7 @@ class CardLg extends Component{
         return(
             <div className="card-lg">
                 <img src={HillGiant} className="card-lg_image"/>
-                <div>
+                <div className="card-lg_desc">
                     <a>Hill Giant</a>
                 </div>
             </div>
