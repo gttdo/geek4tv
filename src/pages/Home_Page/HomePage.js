@@ -3,7 +3,9 @@ import React, {Component} from 'react';
 import NavBar from '../../layout/Navbar';
 import Featured from './Featured';
 import TopStories from './TopStories';
+import PageMainContent from '../../layout/PageMainContent';
 import Footer from '../../layout/Footer';
+
 
 class HomePage extends Component{
     render(){
@@ -12,6 +14,7 @@ class HomePage extends Component{
                 <NavBar/>
                 <Featured/>
                 <TopStories/>
+                <PageMainContent/>
                 <Footer/>
             </main>
         )

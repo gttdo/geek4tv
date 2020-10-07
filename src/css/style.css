@@ -26,7 +26,7 @@ body {
 
 .homepage {
   display: grid;
-  grid-template-rows: 9.6rem repeat(2, 1fr) 12.2rem; }
+  grid-template-rows: 9.6rem repeat(3, 1fr) 12.2rem; }
 
 .navbar {
   display: grid;
@@ -153,8 +153,42 @@ body {
   .top-stories_card-4 {
     grid-column: 8 / span 2; }
 
+.PageContent {
+  margin-top: 11.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .PageContent_container {
+    width: 83.05%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 58rem 1fr;
+    grid-template-rows: 11.7rem 1fr; }
+  .PageContent_title {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #C2C0C0; }
+    .PageContent_title > h2 {
+      font-family: 'Black Ops One', sans-serif;
+      font-size: 3.6rem; }
+
+.sidebar_list {
+  list-style: none;
+  margin-top: 4.3rem; }
+
+.sidebar_item {
+  color: #aaaaaa;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
+  .sidebar_item:hover {
+    color: #000000; }
+  .sidebar_item:active {
+    color: #ffffff;
+    background-color: #bf1313; }
+
 .footer {
-  grid-row: 4 / 5;
+  grid-row: 5 / -1;
   bottom: 0;
   width: 100%;
   height: 12.2rem;
