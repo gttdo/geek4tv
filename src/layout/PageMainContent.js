@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Sidebar from '../components/Sidebar';
+import CardMainContent from '../components/Card-MainContent';
 
 class PageMainContent extends Component{
     render(){
@@ -11,7 +12,7 @@ class PageMainContent extends Component{
                         <h2 >Page Name</h2>
                     </div>
                     <Sidebar/>
-                    <div>Results Card</div>
+                    <CardMainContent/>
                 </div>
             </section>
         )
