@@ -97,10 +97,10 @@ body {
   .card-lg_image {
     height: 100%;
     width: 100%;
-    object-fit: cover; }
+    object-fit: contain; }
   .card-lg_desc {
     position: absolute;
-    bottom: 0;
+    bottom: 5.8rem;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
