@@ -95,12 +95,14 @@ body {
   height: 100%;
   position: relative; }
   .card-lg_image {
+    position: absolute;
+    bottom: 0;
     height: 100%;
     width: 100%;
-    object-fit: contain; }
+    object-fit: cover; }
   .card-lg_desc {
     position: absolute;
-    bottom: 5.8rem;
+    bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
