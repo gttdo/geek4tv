@@ -45,14 +45,22 @@ body {
     grid-template-columns: repeat(6, 1fr);
     align-content: center;
     justify-items: center; }
-    .navbar_menu > li {
-      cursor: pointer; }
+    .navbar_menu > li > a,
+    .navbar_menu > li > a:hover,
+    .navbar_menu > li > a:active {
+      cursor: pointer;
+      text-decoration: none;
+      color: #000000; }
     .navbar_menu_social-media {
       width: 100%;
       display: flex;
       justify-content: center; }
-      .navbar_menu_social-media > a {
-        cursor: pointer; }
+      .navbar_menu_social-media > a,
+      .navbar_menu_social-media > a:hover,
+      .navbar_menu_social-media > a:active {
+        cursor: pointer;
+        text-decoration: none;
+        color: #000000; }
       .navbar_menu_social-media .fa-facebook {
         margin-right: 2rem; }
       .navbar_menu_social-media .fa-youtube {
@@ -182,7 +190,9 @@ body {
   .sidebar_item {
     color: #aaaaaa;
     font-size: 1.8rem;
-    padding-left: 1rem; }
+    padding-left: 1rem;
+    margin-right: 8rem;
+    border-radius: 4px; }
     .sidebar_item:hover {
       color: #000000; }
     .sidebar_item:active {

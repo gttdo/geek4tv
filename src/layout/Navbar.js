@@ -1,20 +1,22 @@
 import React, {Component} from 'react';
 import logo from '../assets/logo/logo_navbar.png';
 
+// Router
+import { Link } from 'react-router-dom';
 class Navbar extends Component{
     render(){
         return(
             <nav className="navbar">
-                <img src={logo} alt= "Logo" className="navbar_logo"/>
+                <a href="/" className="navbar_logo"><img src={logo} alt= "Logo"/></a>
                 <ul className="navbar_menu">
-                    <li>News</li>
-                    <li>Watch</li>
-                    <li>Reviews</li>
-                    <li>More</li>
+                    <li><Link to="/news">News</Link></li>
+                    <li><a>Watch</a></li>
+                    <li><a>Reviews</a></li>
+                    <li><a>More</a></li>
                     <div className="navbar_menu_social-media">
-                        <a><i class="fab fa-facebook"></i></a>
-                        <a><i class="fab fa-instagram"></i></a>
-                        <a><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/geekTVmedia"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/geek4tv"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCL77HAX3gb0rp-foI7Ya8UA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
                     </div>
                     <a className="navbar_menu-search"><i class="fas fa-search"></i></a>
                 </ul>
