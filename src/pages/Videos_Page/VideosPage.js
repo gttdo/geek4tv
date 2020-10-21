@@ -2,15 +2,15 @@ import React, {Component} from 'react';
 
 import PageMainContent from '../../layout/PageMainContent';
 
-class NewsPage extends Component{
+class VideosPage extends Component{
     render(){
         return(
             <>
-                <div>News Page</div>
+                <div>Videos Page</div>
                 <PageMainContent/>
             </>
         )
     }
 }
 
-export default NewsPage;
+export default VideosPage;

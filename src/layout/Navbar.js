@@ -10,13 +10,13 @@ class Navbar extends Component{
                 <a href="/" className="navbar_logo"><img src={logo} alt= "Logo"/></a>
                 <ul className="navbar_menu">
                     <li><Link to="/news">News</Link></li>
-                    <li><a>Watch</a></li>
-                    <li><a>Reviews</a></li>
+                    <li><Link to="/reviews">Reviews</Link></li>
+                    <li><Link to="/videos">Videos</Link></li>
                     <li><a>More</a></li>
                     <div className="navbar_menu_social-media">
-                        <a href="https://www.facebook.com/geekTVmedia"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/geek4tv"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCL77HAX3gb0rp-foI7Ya8UA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/geekTVmedia"><i class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/geek4tv"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCL77HAX3gb0rp-foI7Ya8UA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
                     </div>
                     <a className="navbar_menu-search"><i class="fas fa-search"></i></a>
                 </ul>

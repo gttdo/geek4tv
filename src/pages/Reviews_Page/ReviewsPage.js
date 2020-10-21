@@ -2,15 +2,15 @@ import React, {Component} from 'react';
 
 import PageMainContent from '../../layout/PageMainContent';
 
-class NewsPage extends Component{
+class ReviewsPage extends Component{
     render(){
         return(
             <>
-                <div>News Page</div>
+                <div>Reviews Page</div>
                 <PageMainContent/>
             </>
         )
     }
 }
 
-export default NewsPage;
+export default ReviewsPage;
