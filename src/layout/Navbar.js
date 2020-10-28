@@ -12,7 +12,7 @@ class Navbar extends Component{
                     <li><Link to="/news">News</Link></li>
                     <li><Link to="/reviews">Reviews</Link></li>
                     <li><Link to="/videos">Videos</Link></li>
-                    <li><a>More</a></li>
+                    <li><Link to="/articles/article">More</Link></li>
                     <div className="navbar_menu_social-media">
                         <a target="_blank" href="https://www.facebook.com/geekTVmedia"><i class="fab fa-facebook"></i></a>
                         <a target="_blank" href="https://www.instagram.com/geek4tv"><i class="fab fa-instagram"></i></a>

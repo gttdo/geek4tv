@@ -3,7 +3,7 @@ import frostmaiden from '../../src/assets/pictures/frostmaiden.jpg'
 
 import ArticleInfo from '../components/Article-info';
 import ArticleFeedback from '../components/Article-feedback';
-import Comments from '../components/Comments';
+import CommentsPoster from '../components/CommentsPoster';
 
 class Article extends Component{
     render(){
@@ -25,7 +25,7 @@ class Article extends Component{
                     </p>
                 </div>
                 <ArticleFeedback/>
-                <Comments/>
+                <CommentsPoster/>
             </section>
         )
     }
